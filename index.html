@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>My website</title>
+    </head>
+    <body>
+       <form>
+        <h1>Signup form</h1>
+
+        <fieldset>
+            <legend>Personal Info :</legend>
+            <div>
+                <label for="name">Name :</label>
+                <input type="name" name="name" id="name"/>
+            </div>
+            <div>
+                <label for="date">Birthday :</label>
+                <input type="date" name="Birthday" id="Birthday"/>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Credentials :</legend>
+            <div>
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email"/>
+            </div>
+            <div>
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password"/>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Terms</legend>
+            <div>
+                <p>Do you want to receive updates by email</p>
+                <input type="radio" id="updates-yes" name="updates" value="yes"/>
+                <label for="updates-yes">Yes</label>
+                <input type="radio" id="updates-no" name="updates" value="no" checked/>
+                <label for="updates-no">No</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="accept-terms" name="accept-terms" value="accept">
+                <label for="accept-terms">I accept your terms & conditions</label>
+            </div>
+        </fieldset>
+
+        <input type="submit"/>
+       </form>
+    </body>
+</html>
